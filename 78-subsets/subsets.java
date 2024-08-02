@@ -1,6 +1,6 @@
 class Solution {
     public List<List<Integer>> subsets(int[] arr) {
-         List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         recursivePrint(0,arr,new ArrayList<>(), arr.length, result);
         return(result);
     }
